@@ -16,11 +16,11 @@ JformzAF consists of a PHP class and a Javascript Prototype Class
 
 The PHP class gets data from the MYSQl database using OOP MYSQLI and the JS class builds the form using jFormz.
 
-The download includes an example of how to extend jFormz to generate a form from a table (sandbox.php) and post the data to a php page (test.php). The example uses the same test_table database table that the jFormz Examples use. Just edit the table $table and $orderby variables in sandbox.php to generate a form from a different table.
+The download includes an example of how to extend jFormz to generate a form from a table (sandbox.php) and post the data to a php page (test.php). The example uses a mysql table called test_table in a database called test. Just edit the table $table and $orderby variables in sandbox.php and the table name in class.jformzAF.php to generate a form from a different table.
 
-For manual creation of the database table or for reference the table structure is:
+For manual creation of the database table or for reference the example table structure is:
 
-Assumes you have a database called test
+Assumes you have a database called test.
 
 CREATE TABLE `test_table` (
   `test_id` int(11) NOT NULL,
