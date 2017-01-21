@@ -3,8 +3,8 @@
     class Eformz{
 
     private $host     = "localhost";
-    private $username = "enoxh";
-    private $password = "Aster01d";
+    private $username = "username";
+    private $password = "password";
     private $dbname     = "test";
 
 
