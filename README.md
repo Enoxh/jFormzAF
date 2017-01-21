@@ -20,6 +20,7 @@ The download includes an example of how to extend jFormz to generate a form from
 
 For manual creation of the database table or for reference the table structure is:
 
+Assumes you have a database called test
 
 CREATE TABLE `test_table` (
   `test_id` int(11) NOT NULL,
