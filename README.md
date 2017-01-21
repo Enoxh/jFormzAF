@@ -1,7 +1,6 @@
 # jFormzAF
 Auto generate HTML forms from MYSQL tables using PHP and JS.
 
-jFormzAF AutoForm
 jFormzAF makes it easier for developers to automatically generate HTML forms from MYSQL Tables.
 
 jFormzAF is just an extended version of the jFormz Prototype Class.
